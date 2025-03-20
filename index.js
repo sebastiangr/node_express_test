@@ -20,7 +20,7 @@ MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // Home route
 app.get('/', (req, res) => {
-  res.send('Welcome to the Node.js CRUD app with MongoDB!!!');
+  res.send('Welcome to the Node.js CRUD app with MongoDB!');
 });
 
 // Create a user (POST)
